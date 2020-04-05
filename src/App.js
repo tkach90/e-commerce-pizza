@@ -1,6 +1,8 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components'
 import { Navbar } from './Navbar/Navbar';
+import { Banner } from "./Banner/Banner";
+
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
@@ -15,8 +17,9 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   return (
       <>
-        <Navbar />
         <GlobalStyle />
+        <Navbar />
+        <Banner />
         <div>hello pizza</div>
       </>
   );

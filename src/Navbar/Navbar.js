@@ -4,6 +4,8 @@ import { pizzaRed } from "../styles/colors";
 import { Title } from '../styles/title';
 
 export const NavbarStyled = styled.div`
+    position: fixed;
+    width: 100%;
     background-color: ${pizzaRed}; 
     padding: 10px;
 `;
@@ -17,7 +19,7 @@ const Logo = styled(Title)`
 export function Navbar() {
     return <NavbarStyled>
                 <Logo>
-                    Sliceline 🍕
+                    Sliceline <span role="img" aria-label='pizza emojy'>🍕</span>
                 </Logo>
             </NavbarStyled>;
 }
