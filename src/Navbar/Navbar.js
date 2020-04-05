@@ -8,6 +8,7 @@ export const NavbarStyled = styled.div`
     width: 100%;
     background-color: ${pizzaRed}; 
     padding: 10px;
+    z-index: 999;
 `;
 
 const Logo = styled(Title)`
