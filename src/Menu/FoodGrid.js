@@ -28,7 +28,7 @@ export const Food = styled(Title)`
   transition-duration: .1s;
   
   &:hover {
-    margin-top: 0px;
+    margin-top: 0;
     cursor: pointer;
     filter: contrast(100%);
     box-shadow: 0 0 10px 0 grey;
