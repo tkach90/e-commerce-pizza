@@ -7,7 +7,7 @@ export const FoodGrid = styled.div`
   gap: 20px;
 `;
 
-export const FoodLabel = styled.div`
+export const FoodLabel = styled(Title)`
   position: absolute;
   background-color: rgba(255, 255, 255, .7);
   padding: 5px;
@@ -21,14 +21,14 @@ export const Food = styled(Title)`
   background-image: ${({img}) => `url(${img});` };
   background-position: center;
   background-size: cover;
-  filter: contrast(75%);
+  filter: contrast(65%);
   border-radius: 7px;
   box-shadow: 0 0 2px 0 grey;
-  transition-property: box-shadow, margin-top, filter;
+  transition-property: box-shadow, filter;
   transition-duration: .1s;
   
   &:hover {
-    margin-top: 0;
+    margin-top: 0px;
     cursor: pointer;
     filter: contrast(100%);
     box-shadow: 0 0 10px 0 grey;
