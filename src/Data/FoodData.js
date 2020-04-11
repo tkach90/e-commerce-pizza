@@ -102,7 +102,14 @@ export const foodItems = [
         name: 'Lemonade',
         img: '/img/lemonade.jpg',
         section: 'Drinks',
-        price: 1
+        price: 1.3
+    },
+    {
+        id: 15,
+        name: 'Soda',
+        section: 'Drinks',
+        price: 1,
+        choices: ['Coke','Sprite','Root Beer']
     },
 ];
 
