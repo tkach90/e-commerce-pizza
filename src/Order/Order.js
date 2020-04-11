@@ -86,7 +86,9 @@ export function Order({ orders, setOrders,setOpenFood }) {
                                             deleteItem(index);
                                         }}
                                     >
-                                        ❌
+                                        <span role="img" aria-label="delete icon">
+                                            ❌
+                                        </span>
                                     </div>
                                     <div>{formatPrice(getPrice(order))}</div>
                                 </OrderItem>

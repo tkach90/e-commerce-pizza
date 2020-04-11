@@ -40,5 +40,28 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCZtr74ZljkQ73z6qtoeLS6aDRv8JJkNUo",
+        authDomain: "pizza-shop-7c119.firebaseapp.com",
+        databaseURL: "https://pizza-shop-7c119.firebaseio.com",
+        projectId: "pizza-shop-7c119",
+        storageBucket: "pizza-shop-7c119.appspot.com",
+        messagingSenderId: "465816876080",
+        appId: "1:465816876080:web:a1ad44b37d8a8e1d1de9f5",
+        measurementId: "G-DCQT6DV7GR"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>
